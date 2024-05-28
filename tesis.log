@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.19)  29 APR 2024 20:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.19)  27 MAY 2024 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./tesis.tex
-(tesis.tex
+**"C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo/tesis.tex"
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo/tesis.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\José Arroyo\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -1109,12 +1109,22 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 LaTeX Warning: Unused global option(s):
     [times].
 
-(tesis.aux
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\tesis.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
- (0/resumen.aux) (0/abstract.aux) (0/dedicacion.aux)
-(0/agradecimientos.aux) (1/planteamiento.aux) (2/marco.aux) (3/metodologia.aux)
-(4/desarrollo.aux) (5/resultados.aux) (6/conclusion.aux) (anexos/anexo.aux))
+
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\0/resumen.aux)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\0/abstract.aux)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\0/dedicacion.aux)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\0/agradecimientos.
+aux)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\1/planteamiento.au
+x) (C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\2/marco.aux)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\3/metodologia.aux)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\4/desarrollo.aux)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\5/resultados.aux)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\6/conclusion.aux)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\anexos/anexo.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
@@ -1135,7 +1145,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
 LaTeX Font Info:    ... okay on input line 142.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
 LaTeX Font Info:    ... okay on input line 142.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1204,11 +1213,13 @@ Package biblatex Warning: File 'tesis.bbl' is wrong format version - expected 3
 .2.
 
 Package biblatex Info: ... file 'tesis.bbl' found.
-(tesis.bbl)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\tesis.bbl)
 Package biblatex Info: Reference section=0 on input line 142.
 Package biblatex Info: Reference segment=0 on input line 142.
 Package hyperref Info: Link coloring ON on input line 142.
- (tesis.out) (tesis.out)
+
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\tesis.out)
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\tesis.out)
 \@outlinefile=\write4
 \openout4 = `tesis.out'.
 
@@ -1257,12 +1268,13 @@ Package pdftex.def Info: images_repo/esanlogomin.png  used on input line 148.
  [1
 
 {C:/Users/José Arroyo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Use
-rs/José Arroyo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./i
-mages_repo/esanlogomin.png>]
+rs/José Arroyo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:/
+Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo/images_repo/esanlogomi
+n.png>]
 \openout2 = `0/resumen.aux'.
 
 
-(0/resumen.tex
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\0/resumen.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
@@ -1278,7 +1290,8 @@ l.170 \include{0/resumen}
 ]
 \openout2 = `0/abstract.aux'.
 
- (0/abstract.tex
+
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\0/abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
@@ -1290,14 +1303,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 ]
 \openout2 = `0/dedicacion.aux'.
 
- (0/dedicacion.tex) [3
+
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\0/dedicacion.tex)
+[3
 
 
 
 ]
 \openout2 = `0/agradecimientos.aux'.
 
- (0/agradecimientos.tex
+
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\0/agradecimientos.
+tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
@@ -1306,7 +1323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
 
 
-] (tesis.toc
+] (C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\tesis.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1358,7 +1375,8 @@ LaTeX Info: Redefining \% on input line 49.
 
 LaTeX Info: Redefining \. on input line 188.
 LaTeX Info: Redefining \% on input line 188.
- [7] (tesis.lof
+ [7]
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\tesis.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1366,9 +1384,10 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write6
 \openout6 = `tesis.lof'.
 
- [8
 
-] (tesis.lot
+[8
+
+] (C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\tesis.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1376,595 +1395,38 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write7
 \openout7 = `tesis.lot'.
 
- [9
+
+[9
 
 ]
 \openout2 = `1/planteamiento.aux'.
 
- (1/planteamiento.tex
+
+(C:/Users/José Arroyo/Desktop/tesis cambios/TesisJoseArroyo\1/planteamiento.te
+x
 Cap\'{\i }tulo 1.
 [10
 
 
 ]
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
+LaTeX Info: Redefining \. on input line 56.
+LaTeX Info: Redefining \% on input line 56.
  [11]
-! Too many }'s.
-l.66 }
-      
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
-[12]
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
- [13]
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
- [14])
-LaTeX Info: Redefining \. on input line 194.
-LaTeX Info: Redefining \% on input line 194.
- [15]
-\openout2 = `2/marco.aux'.
-
- (2/marco.tex
-Cap\'{\i }tulo 2.
-(2/1_antecedentes/antecedentes.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\citep' on input line 4.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 4.
-
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 5.
-
-(C:\Users\José Arroyo\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-[16
-
-
-
-
-]) (2/2_teoria/base_teo.tex) (2/3_conceptos/marc_conceptual.tex))
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
- [17]
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
-
-[18]
-\openout2 = `3/metodologia.aux'.
-
- (3/metodologia.tex
-Cap\'{\i }tulo 3.
-[19
-
-
-
-
-]
-<3/figures/largepotato.jpg, id=417, 491.8375pt x 291.0875pt>
-File: 3/figures/largepotato.jpg Graphic file (type jpg)
-<use 3/figures/largepotato.jpg>
-Package pdftex.def Info: 3/figures/largepotato.jpg  used on input line 24.
-(pdftex.def)             Requested size: 362.37598pt x 214.47751pt.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
- [20 <./3/figures/largepotato.jpg>]
-LaTeX Font Info:    Trying to load font information for U+eus on input line 54.
-
-
-(C:\Users\José Arroyo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueus.fd
-File: ueus.fd 2013/01/14 v3.01 Euler Script
-)
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
- [21])
-LaTeX Info: Redefining \. on input line 196.
-LaTeX Info: Redefining \% on input line 196.
- [22]
-\openout2 = `4/desarrollo.aux'.
-
- (4/desarrollo.tex
-Cap\'{\i }tulo 4.
-[23
-
-
-
-
-])
-LaTeX Info: Redefining \. on input line 197.
-LaTeX Info: Redefining \% on input line 197.
- [24]
-\openout2 = `5/resultados.aux'.
-
- (5/resultados.tex
-Cap\'{\i }tulo 5.
-) [25
-
-
-
-
-]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
- [26]
-\openout2 = `6/conclusion.aux'.
-
- (6/conclusion.tex
-Cap\'{\i }tulo 6.
-) [27
-
-
-
-
-] [28
-
-
-
-
-]
-\openout2 = `anexos/anexo.aux'.
-
- (anexos/anexo.tex
-Anexos A.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-
-Underfull \hbox (badness 1383) in paragraph at lines 15--15
-[]|\OT1/ptm/m/n/10.95 ?`De qu[]e ma-ne-ra la de-tec-ci[]on
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 15--15
-\OT1/ptm/m/n/10.95 ro vi-sual se-ve-ro en la po-bla-
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 20--20
-[]|\OT1/ptm/m/n/10.95 Evaluar y com-pa-rar la pre-ci-
- []
-
-
-Underfull \hbox (badness 3449) in paragraph at lines 20--21
-\OT1/ptm/m/n/10.95 nos tem-pra-nos de re-ti-no-pat[]^^Pa
- []
-
-
-Underfull \hbox (badness 2119) in paragraph at lines 24--25
-\OT1/ptm/m/n/10.95 de da-tos en-tre di-fe-ren-tes ob-
- []
-
-
-Overfull \hbox (11.42305pt too wide) in paragraph at lines 7--31
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 179.81444pt on input line 33.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[29
-
-
-]
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
- [30]
-Anexos B.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-7.
-
-(C:\Users\José Arroyo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Overfull \hbox (1.37367pt too wide) in paragraph at lines 49--49
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\OT1/ptm/m/n/10 Copper pri-ce es-ti-ma-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\OT1/ptm/m/n/10 Dehghani
- []
-
-
-Overfull \hbox (2.92818pt too wide) in paragraph at lines 49--49
-[]|\OT1/ptm/m/n/10 2018| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\OT1/ptm/m/n/10 United
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 51--51
-[]|\OT1/ptm/m/n/10 Alternative tech-ni-ques for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\OT1/ptm/m/n/10 Cortez, Say-
- []
-
-
-Overfull \hbox (2.92818pt too wide) in paragraph at lines 51--51
-[]|\OT1/ptm/m/n/10 2018| 
- []
-
-
-Underfull \hbox (badness 5592) in paragraph at lines 51--52
-\OT1/ptm/m/n/10 of Mi-ning Scien-ce
- []
-
-
-Overfull \hbox (1.37367pt too wide) in paragraph at lines 53--54
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 1596) in paragraph at lines 55--55
-[]|\OT1/ptm/m/n/10 Trastour, Ge-
- []
-
-
-Overfull \hbox (2.92818pt too wide) in paragraph at lines 55--55
-[]|\OT1/ptm/m/n/10 2016| 
- []
-
-
-Underfull \hbox (badness 1648) in paragraph at lines 55--56
-[]|\OT1/ptm/m/n/10 Standfort Uni-ver-sity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]|\OT1/ptm/m/n/10 Stock Pri-ce Pre-dic-tion
- []
-
-
-Overfull \hbox (2.92818pt too wide) in paragraph at lines 57--57
-[]|\OT1/ptm/m/n/10 2018| 
- []
-
-
-Underfull \hbox (badness 3460) in paragraph at lines 59--60
-[]|\OT1/ptm/m/n/10 Deep Lear-ning for Stock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\OT1/ptm/m/n/10 Akita, R.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-\OT1/ptm/m/n/10 Yoshiha-ra,
- []
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 60--60
-\OT1/ptm/m/n/10 A., Matsu-ba-
- []
-
-
-Overfull \hbox (2.92818pt too wide) in paragraph at lines 60--60
-[]|\OT1/ptm/m/n/10 2016| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-[]|\OT1/ptm/m/n/10 2016 IEEE/ACIS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-\OT1/ptm/m/n/10 15th In-ter-na-tio-
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 60--62
-\OT1/ptm/m/n/10 nal Con-fe-ren-ce on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-\OT1/ptm/m/n/10 Com-pu-ter and In-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-\OT1/ptm/m/n/10 for-ma-tion Scien-ce
- []
-
-
-Overfull \hbox (1.37367pt too wide) in paragraph at lines 63--63
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-[]|\OT1/ptm/m/n/10 Stock Pri-ces Pre-dic-tion
- []
-
-
-Underfull \hbox (badness 3713) in paragraph at lines 63--64
-\OT1/ptm/m/n/10 per Ar-ti-cles with Ko-rean
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 63--64
-\OT1/ptm/m/n/10 Na-tu-ral Lan-gua-ge Pro-ces-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]|\OT1/ptm/m/n/10 Yun, Sim,
- []
-
-
-Overfull \hbox (2.92818pt too wide) in paragraph at lines 64--64
-[]|\OT1/ptm/m/n/10 2019| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-[]|\OT1/ptm/m/n/10 2019 In-ter-na-tio-nal
- []
-
-
-Underfull \hbox (badness 4391) in paragraph at lines 64--66
-\OT1/ptm/m/n/10 Con-fe-ren-ce on Ar-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-\OT1/ptm/m/n/10 ti-fi-cial In-te-lli-gen-ce
- []
-
-
-Underfull \hbox (badness 4120) in paragraph at lines 64--66
-\OT1/ptm/m/n/10 in In-for-ma-tion and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-\OT1/ptm/m/n/10 Com-mu-ni-ca-tion
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 67--68
-[]|\OT1/ptm/m/n/10 A Method of Op-ti-mi-zing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-[]|\OT1/ptm/m/n/10 Jingrui, Z.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-\OT1/ptm/m/n/10 Qin-glin, W.,
- []
-
-
-Overfull \hbox (2.92818pt too wide) in paragraph at lines 68--68
-[]|\OT1/ptm/m/n/10 2017| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
-[]|\OT1/ptm/m/n/10 2017 32nd Youth
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
-\OT1/ptm/m/n/10 Aca-de-mic An-nual
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 68--70
-\OT1/ptm/m/n/10 Con-fe-ren-ce of Chi-
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 68--70
-\OT1/ptm/m/n/10 ne-se As-so-cia-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-[]|\OT1/ptm/m/n/10 Qualitative Stock Mar-ket
- []
-
-
-Underfull \hbox (badness 7558) in paragraph at lines 71--72
-\OT1/ptm/m/n/10 Pre-dic-ting with Com-mon
- []
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 71--72
-\OT1/ptm/m/n/10 Know-led-ge Ba-sed Na-tu-re
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-\OT1/ptm/m/n/10 Lan-gua-ge Pro-ces-sing: A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\OT1/ptm/m/n/10 Rao, D.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-\OT1/ptm/m/n/10 Deng, F.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-\OT1/ptm/m/n/10 Jiang, Z.,
- []
-
-
-Overfull \hbox (2.92818pt too wide) in paragraph at lines 72--72
-[]|\OT1/ptm/m/n/10 2015| 
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 72--74
-\OT1/ptm/m/n/10 nal Con-fe-ren-ce on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
-\OT1/ptm/m/n/10 In-te-lli-gent Human-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
-\OT1/ptm/m/n/10 Machine Sys-tems
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 75--75
-\OT1/ptm/m/n/10 for Do-cu-ment Re-pre-sen-ta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\OT1/ptm/m/n/10 Zhao, R.,
- []
-
-
-Overfull \hbox (2.92818pt too wide) in paragraph at lines 75--75
-[]|\OT1/ptm/m/n/10 2018| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
-[]|\OT1/ptm/m/n/10 IEEE Transac-tions
- []
-
-
-Underfull \hbox (badness 7362) in paragraph at lines 75--77
-\OT1/ptm/m/n/10 on Fuzzy Sys-tems
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [31
-
-]
-LaTeX Info: Redefining \. on input line 208.
-LaTeX Info: Redefining \% on input line 208.
- [32]
-Overfull \hbox (41.27136pt too wide) in paragraph at lines 213--213
-[][]\OT1/ptm/m/n/12 IBM. (2019). IBM AI glos-sary. [][]$https : / / www . ibm .
- com / cloud / garage / architectures / cognitiveArchitecture /
- []
-
-[33
-
-
-
-]
-LaTeX Info: Redefining \. on input line 215.
-LaTeX Info: Redefining \% on input line 215.
- [34] (tesis.aux
-LaTeX Info: Redefining \sptext on input line 12.
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
- (0/resumen.aux) (0/abstract.aux) (0/dedicacion.aux)
-(0/agradecimientos.aux) (1/planteamiento.aux) (2/marco.aux) (3/metodologia.aux)
-(4/desarrollo.aux) (5/resultados.aux) (6/conclusion.aux) (anexos/anexo.aux))
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tesis.out':
-(rerunfilecheck)             Before: FA55F342D34EF616079329E985C9E6E1;9834
-(rerunfilecheck)             After:  830554578C2D82615D2C733526663F02;9828.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                tesis
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'tesis.run.xml'.
-\openout1 = `tesis.run.xml'.
-
- ) 
+! TeX capacity exceeded, sorry [main memory size=5000000].
+\Pbfour -> Definición de 
+                          \Pbfour 
+l.57 	\item \Pbfour
+                   
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
 Here is how much of TeX's memory you used:
- 29345 strings out of 474486
- 576247 string characters out of 5740415
- 1953542 words of memory out of 5000000
- 51009 multiletter control sequences out of 15000+600000
- 609380 words of font info for 150 fonts, out of 8000000 for 9000
+ 28921 strings out of 474486
+ 566068 string characters out of 5740415
+ 5000000 words of memory out of 5000000
+ 50723 multiletter control sequences out of 15000+600000
+ 579475 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,32n,82p,1284b,3650s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsection.1.6.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.1.6.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
-, replaced by a fixed one
-
-<C:/Users/José Arroyo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmex10.pfb><C:/Users/José Arroyo/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Users/José Arroyo/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/José Arroyo/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/José 
-Arroyo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.p
-fb><C:/Users/José Arroyo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/latxfont/lasy10.pfb><C:/Users/José Arroyo/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/symbol/usyr.pfb><C:/Users/José Arroyo/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/José Arroyo/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/José Arroyo/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/José Arroyo/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (35 pages, 323924 bytes).
-PDF statistics:
- 596 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 475 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 66i,12n,82p,1344b,3650s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
