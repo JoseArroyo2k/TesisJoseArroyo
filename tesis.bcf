@@ -3059,15 +3059,49 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">biblio/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">pr_dehghani2018copper</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">pr_dehghani2018copper</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">pr_dehghani2018copper</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">pr_dehghani2018copper</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">tec_royal2017machine</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">bk_gollapudi2016practical</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">bk_goyal2018deep</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">bk_goyal2018deep</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">bk_goyal2018deep</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">sharma2020deep</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">arulkumar2023monitoring</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">huang2023advances</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">santhoshkumar2023</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">idf2021</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">idf2021</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">yanhez2016prevalencia</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">huang2023advances</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">rajeswari2022heart</bcf:citekey>
+    <bcf:citekey order="21" intorder="2">arulkumar2023monitoring</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">sharma2020deep</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">sharma2020deep</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">mane2023customized</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">mohanty2023using</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">huang2023advances</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">sharma2020deep</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">sharma2020deep</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">sharma2020deep</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">sharma2020deep</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">sharma2020deep</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">jiang2020heart</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">arulkumar2023monitoring</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">arulkumar2023monitoring</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">arulkumar2023monitoring</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">arulkumar2023monitoring</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">arulkumar2023monitoring</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">arulkumar2023monitoring</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">arulkumar2023monitoring</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">huang2023advances</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">santhoshkumar2023</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">santhoshkumar2023</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">santhoshkumar2023</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">santhoshkumar2023</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">santhoshkumar2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
@@ -3115,15 +3149,6 @@
                 type="entry"
                 sortingtemplatename="apa"
                 sortingnamekeytemplatename="apasortcite"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="0"
-                name="apa/global//global/global"
-                type="entry"
-                sortingtemplatename="apa"
-                sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
                 labelalphanametemplatename="global">

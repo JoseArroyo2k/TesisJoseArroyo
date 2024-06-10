@@ -1,5 +1,6 @@
 %\documentclass[a4paper,12pt,twoside]{book}
 \documentclass[12pt,times]{report}
+\usepackage[utf8]{inputenc}
 \usepackage{mathptmx}%This package supersedes times and mathptm
 \usepackage[a4paper,right=2.54cm,left=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
 
@@ -8,25 +9,14 @@
 %%add al indice
 %\usepackage[nottoc,numbib]{tocbibind}
 %\usepackage[authoryear,round]{natbib}
-\usepackage[utf8]{inputenc}
 \usepackage{csquotes}
 \usepackage[spanish]{babel}
-\usepackage[style=apa ,
-%hyperref=auto,
-%citestyle=authoryear,
-natbib=true,
-backend=biber]{biblatex}
+\usepackage[style=apa ,natbib=true,backend=biber]{biblatex}
 \addbibresource{biblio/references.bib}
 %\usepackage{biblatex}
 %paquete para hiperlinks entre citas e imagenes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[colorlinks=true,
-citecolor=blue,
-urlcolor=cyan,
-bookmarks=true,
-linkcolor=blue,
-pdftitle={Tesis-nombre-alumno},
-pdfauthor={autor nombres}]{hyperref}
+\usepackage[colorlinks=true,citecolor=blue,urlcolor=cyan,bookmarks=true,linkcolor=blue,pdftitle={Tesis-nombre-alumno},pdfauthor={autor nombres}]{hyperref}
 
 \usepackage{amssymb}
 \usepackage{graphicx} % for improved inclusion of graphics
@@ -41,6 +31,8 @@ pdfauthor={autor nombres}]{hyperref}
 \setlength{\columnsep}{20pt} % space between columns; default 10pt quite narrow
 \usepackage[nottoc]{tocbibind} % correct page numbers for bib in TOC, nottoc suppresses an entry for TOC itself
 \usepackage{appendix}
+\usepackage{float} % Añadir paquete float para la opción H
+\usepackage{placeins} % Añadir paquete placeins para \FloatBarrier
 
 %%%----Modificar encabezado y pie de pagina
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -5,6 +5,13 @@ La retinopatía diabética (RD) constituye una complicación severa derivada de 
 
 Globalmente, más de 537 millones de adultos viven con diabetes, y se estima que este número ascenderá a más de 780 millones para el año 2045. Un análisis exhaustivo muestra que alrededor del 34.6\% de estas personas desarrollarán alguna forma de RD, y un 7\% experimentará variantes severas como la retinopatía diabética proliferativa.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images_repo/Predominiodeladiabetes.jpg}
+    \caption{Predominio de la diabetes en Perú. Fuente: \cite{idf2021}}
+    \label{fig:diabetes_peru}
+\end{figure}
+
 La repercusión socioeconómica de la RD es vasta, incluyendo no solo los costes directos de los tratamientos sino también la reducción de la capacidad laboral de los afectados, lo que puede llevar a la pérdida de autonomía y al desarrollo de trastornos emocionales. Las opciones de tratamiento avanzadas, como las inyecciones intraoculares y las intervenciones quirúrgicas retinianas, suponen un lastre económico adicional tanto para los pacientes como para los sistemas sanitarios.
 
 \textbf{Acceso Desigual a la Atención Médica}
@@ -30,24 +37,25 @@ Es esencial evaluar críticamente las políticas y estrategias de salud pública
 
 Ante el incremento esperado en la prevalencia de la diabetes, es imperativo que los sistemas de salud se preparen para manejar esta carga creciente de manera eficiente y sostenible.
 
-\subsection{Problema General}
+\section{Problema General}
 \newcommand{\ProblemaGeneral}{
-	¿De qué manera la detección inadecuada contribuye a la incidencia de ceguera y deterioro visual severo en la población diabética específicamente a través de la retinopatía diabética?
+	¿De qué manera la implementación de un modelo de deep learning adecuado puede mejorar los resultados de los pre-diagnósticos de retinopatía diabética?
 }
 \ProblemaGeneral
 
 \subsection{Problemas Específicos}
 \newcommand{\Pbone}{
-	¿Hasta qué punto la precisión de los modelos de deep learning en la detección temprana de la retinopatía diabética afecta la tasa de diagnósticos correctos y oportunos en comparación con los métodos convencionales de cribado?
+	¿Qué datos serán necesarios para entrenar modelos de deep learning en la pre-detección de la retinopatía diabética?
 }
 \newcommand{\Pbtwo}{
-	¿De qué forma la calidad y disponibilidad de los datos de entrenamiento impactan la capacidad de los modelos de deep learning para predecir de manera efectiva la retinopatía diabética, y cuál es su influencia en la prevención de la ceguera en pacientes diabéticos?
+	¿Cuál será la arquitectura de modelo de deep learning más efectiva para identificar características tempranas de la retinopatía diabética?
 }
 \newcommand{\Pbthree}{
-	¿Cómo incide la variabilidad intra e inter observador en la anotación de datos en la precisión de los modelos de deep learning para detectar la retinopatía diabética en diversas poblaciones?
+	¿Qué métodos de preprocesamiento de imágenes serán utilizados para mejorar la precisión del modelo de deep learning en la detección de retinopatía diabética?
+
 }
 \newcommand{\Pbfour}{
-	W
+	¿Qué métricas serán utilizadas para evaluar y comparar la efectividad de diferentes modelos de deep learning en la detección de la retinopatía diabética?
 }
 \newcommand{\Pbfive}{
 	ES
@@ -57,7 +65,7 @@ Ante el incremento esperado en la prevalencia de la diabetes, es imperativo que 
 	\item \Pbone
 	\item \Pbtwo
 	\item \Pbthree
-	% \item \Pbfour
+	 \item \Pbfour
 	% \item \Pbfive
 \end{itemize}
 
@@ -65,22 +73,22 @@ Ante el incremento esperado en la prevalencia de la diabetes, es imperativo que 
 
 \subsection{Objetivo General}
 \newcommand{\ObjetivoGeneral}{
-	Evaluar la precisión, fiabilidad y aplicabilidad de los modelos de deep learning en la identificación temprana de la retinopatía diabética, para establecer una metodología que contribuya a una detección más efectiva de la enfermedad.
+	Evaluar la implementación de un modelo de deep learning para mejorar los resultados de los pre-diagnósticos de retinopatía diabética.
 }
 \ObjetivoGeneral
 
 \subsection{Objetivos Específicos}
 \newcommand{\Objone}{
-	Evaluar y comparar la precisión de modelos seleccionados de deep learning en la identificación de características tempranas de la retinopatía diabética, frente a la precisión de los métodos de cribado tradicionales, y determinar su impacto en la mejora de los diagnósticos oportunos.
+	Identificar los datos necesarios para entrenar modelos de deep learning en la pre-detección de la retinopatía diabética.
 }
 \newcommand{\Objtwo}{
-	Investigar el efecto de la calidad y la disponibilidad de datos en la precisión de los modelos de deep learning y su capacidad para detectar la retinopatía diabética, y cómo esto podría contribuir a la prevención de la ceguera en la población diabética.
+	Determinar la arquitectura de modelo de deep learning más efectiva para identificar características tempranas de la retinopatía diabética.
 }
 \newcommand{\Objthree}{
-	Analizar el grado de variabilidad en la anotación de datos por diferentes observadores y su influencia en la eficacia de los modelos de deep learning, con el objetivo de identificar y proponer estrategias para mejorar la consistencia en la detección de la retinopatía diabética en poblaciones variadas.
+	Evaluar los métodos de preprocesamiento de imágenes que mejoren la precisión del modelo de deep learning en la detección de retinopatía diabética.
 }
 \newcommand{\Objfour}{
-	DSAD
+	Definir y utilizar métricas para evaluar y comparar la efectividad de diferentes modelos de deep learning en la detección de la retinopatía diabética.
 }
 \newcommand{\Objfive}{
 
@@ -90,52 +98,68 @@ Ante el incremento esperado en la prevalencia de la diabetes, es imperativo que 
 	\item \Objone
 	\item \Objtwo
 	\item \Objthree
-	% \item \Objfour
+	 \item \Objfour
 	% \item \Objfive
 \end{itemize}
 
 \section{Justificación de la Investigación}
 
 \subsection{Teórica}
-Este estudio se centra en la aplicación de modelos de aprendizaje profundo para la detección temprana de la retinopatía diabética, un problema de salud prevalente entre los diabéticos en Perú. Investigaciones recientes indican que hasta un 15.1\% de los pacientes en programas específicos de diabetes presentan esta condición, con una mayoría sufriendo de formas no proliferativas. Este proyecto busca profundizar el entendimiento de cómo los avances en inteligencia artificial pueden mejorar significativamente la detección y el seguimiento precoz de esta afección. Al hacerlo, la investigación aportará valiosos conocimientos sobre las capacidades y restricciones de las tecnologías emergentes en la oftalmología, enriqueciendo la literatura académica tanto a nivel local como internacional.
+
+Este estudio se centra en la implementación de modelos de aprendizaje profundo para la detección temprana de la retinopatía diabética, una complicación prevalente y grave entre los diabéticos en Perú. Investigaciones recientes indican que la prevalencia de la retinopatía diabética en pacientes con diabetes tipo 2 es de 57.62\%, con una prevalencia de retinopatía diabética no proliferativa de 47.29\% y retinopatía diabética proliferativa de 10.33\% \cite{yanhez2016prevalencia}. Este proyecto busca profundizar el entendimiento de cómo los avances en inteligencia artificial pueden mejorar significativamente la detección y el seguimiento precoz de esta afección. 
+
+La aplicación de técnicas avanzadas de aprendizaje profundo tiene el potencial de revolucionar la manera en que se detectan y manejan las enfermedades oculares. En el caso de la retinopatía diabética, los modelos de deep learning pueden ofrecer una precisión y eficiencia superiores en la identificación de signos tempranos, lo cual es crucial para la implementación de intervenciones oportunas. Este estudio no solo pretende validar la efectividad de estos modelos en un entorno clínico, sino también explorar sus limitaciones y desafíos asociados con su implementación \cite{huang2023advances}.
+
 
 \subsection{Práctica}
-Desde un punto de vista práctico, este trabajo de investigación tiene el potencial de generar una mejora considerable en el método de pre-detección de la retinopatía diabética en Perú, donde comúnmente el diagnóstico ocurre en fases muy avanzadas. Implementar modelos de deep learning para la identificación temprana de la enfermedad podría facilitar intervenciones preventivas más efectivas, aliviar la carga económica sobre el sistema de salud y mejorar significativamente los resultados para los pacientes. Integrar esta tecnología en los sistemas públicos de salud mejoraría la accesibilidad y eficacia del diagnóstico de la RD, especialmente en zonas donde los recursos son escasos.
+Desde un punto de vista práctico, este trabajo de investigación tiene el potencial de generar una mejora considerable en el método de pre-detección de la retinopatía diabética en Perú, donde comúnmente el diagnóstico ocurre en fases muy avanzadas. Implementar modelos de deep learning para la identificación temprana de la enfermedad podría facilitar intervenciones preventivas más efectivas, aliviar la carga económica sobre el sistema de salud y mejorar significativamente los resultados para los pacientes. Integrar esta tecnología en los sistemas públicos de salud mejoraría la accesibilidad y eficacia del diagnóstico de la retinopatía diabética, especialmente en zonas donde los recursos son escasos. Estudios recientes sobre el uso de deep learning en la detección de enfermedades cardíacas han demostrado su eficacia y precisión, lo que sugiere que métodos similares podrían ser beneficiosos para la detección de la retinopatía diabética \cite{rajeswari2022heart, arulkumar2023monitoring}.
+
 
 \subsection{Metodológica}
-Metodológicamente, este estudio se distingue por su análisis exhaustivo y comparativo de diversos modelos de deep learning en un entorno clínico real. La metodología rigurosa que se aplicará no solo evaluará la precisión de estos modelos, sino que también explorará adaptaciones necesarias para maximizar su eficacia en el contexto específico de Perú. Esto proporcionará una base sólida para futuras investigaciones y aplicaciones de IA en el tratamiento de otras condiciones médicas, además de influir en el desarrollo de políticas de salud pública relacionadas con la implementación de nuevas tecnologías.
+Metodológicamente, este estudio se distingue por su análisis exhaustivo y comparativo de diversos modelos de deep learning en función de su rendimiento con las variables comunes en el aprendizaje profundo y modelos predictivos. La metodología rigurosa que se aplicará no solo evaluará la precisión de estos modelos, sino que también explorará adaptaciones necesarias para maximizar su eficacia en el contexto específico de Perú.
+
+Según \citet{sharma2020deep}, los modelos de deep learning han demostrado ser altamente efectivos en la detección de enfermedades utilizando imágenes médicas. Este enfoque se aplicará para evaluar cómo estos modelos pueden ser adaptados para la detección temprana de la retinopatía diabética.
+
+Además, \citet{jiang2020heart} subrayan la importancia de ajustar los modelos de deep learning a los datos locales para mejorar su precisión y rendimiento. Esta investigación se centrará en adaptar y optimizar los modelos existentes para el contexto específico de Perú, proporcionando una base sólida para futuras aplicaciones en otras condiciones médicas y en el desarrollo de políticas de salud pública relacionadas con la implementación de nuevas tecnologías.
+
+
+
 
 \section{Delimitación del Estudio}
 
 \subsection{Espacial}
-Este estudio se delimita al análisis de datos obtenidos de bases de datos internacionales reconocidas, específicamente el Messidor dataset y el APTOS 2019. Estas bases contienen imágenes de fondo de ojo de pacientes diabéticos, recolectadas bajo diversos estudios clínicos. La selección de estas bases de datos se debe a su amplio uso en la investigación académica y su relevancia para validar la precisión de modelos de deep learning en el contexto de la retinopatía diabética. La investigación no involucrará la recolección de nuevos datos clínicos ni se realizarán pruebas directas con pacientes en Perú o cualquier otra región, concentrándose exclusivamente en el análisis técnico y comparativo de los datos ya existentes.
+Este estudio se delimita al análisis de datos obtenidos de bases de datos internacionales reconocidas, específicamente el Messidor dataset y el APTOS 2019. Estas bases contienen imágenes de fondo de ojo de pacientes diabéticos, recolectadas bajo diversos estudios clínicos. La selección de estas bases de datos se debe a su amplio uso en la investigación académica y su relevancia para validar la precisión de modelos de deep learning en el contexto de la retinopatía diabética. Los tres modelos evaluados en este estudio incluyen el Customized Convolutional Neural Network (CCNN) de Mane et al. \cite{mane2023customized}, el modelo propuesto por Mohanty et al. \cite{mohanty2023using}, y el modelo de Deep Learning desarrollado por otro grupo de investigadores destacados en el campo \cite{huang2023advances}. La investigación no involucrará la recolección de nuevos datos clínicos ni se realizarán pruebas directas con pacientes en Perú o cualquier otra región, concentrándose exclusivamente en el análisis técnico y comparativo de los datos ya existentes.
+
 
 \subsection{Temporal}
-La investigación se llevará a cabo durante el año académico 2024, comenzando en enero y concluyendo en diciembre del mismo año. Este marco temporal ha sido seleccionado para alinear el estudio con el calendario académico y permitir un tiempo adecuado para la planificación, ejecución y análisis de la evaluación de los modelos. Durante este período, se realizará la selección de modelos, el procesamiento de datos, la ejecución de pruebas computacionales y la análisis de los resultados.
+La investigación se llevará a cabo durante el año académico 2024, comenzando en enero y concluyendo en diciembre del mismo año. Este marco temporal ha sido seleccionado para alinear el estudio con el calendario académico, proporcionando un tiempo adecuado para cada fase del proyecto. Durante este período, se realizará la planificación detallada, la selección de modelos de deep learning, el procesamiento de datos, la ejecución de pruebas computacionales, y el análisis de los resultados. Este cronograma garantizará que todas las etapas del estudio se completen de manera organizada y eficiente.
+
+
 
 \subsection{Conceptual}
-La investigación está enfocada en la evaluación técnica de modelos de deep learning específicos que han sido previamente desarrollados y aplicados en la detección de la retinopatía diabética. La delimitación conceptual abarca la validación de la efectividad de estos modelos en términos de precisión, sensibilidad, especificidad y otras métricas relevantes para el diagnóstico automatizado a través de imágenes. Se excluyen del estudio la creación de nuevos modelos de IA, cualquier intervención médica directa con pacientes, y la exploración de tratamientos para la retinopatía. Este enfoque permite una concentración rigurosa en la evaluación del rendimiento de tecnologías específicas en un contexto controlado y basado en datos, proporcionando una evaluación crítica de su utilidad práctica y limitaciones.
+La investigación está enfocada en la evaluación técnica de modelos de deep learning específicos que han sido previamente desarrollados y aplicados en la detección de la retinopatía diabética. La delimitación conceptual incluye la validación de la efectividad de estos modelos en términos de precisión, sensibilidad, especificidad y otras métricas relevantes para el diagnóstico automatizado mediante imágenes. Se excluyen del estudio la creación de nuevos modelos de inteligencia artificial, cualquier intervención médica directa con pacientes, y la exploración de tratamientos para la retinopatía diabética. Este enfoque permite una concentración rigurosa en la evaluación del rendimiento de tecnologías específicas en un contexto controlado y basado en datos, proporcionando una evaluación crítica de su utilidad práctica y sus limitaciones.
+
 
 \section{Hipótesis}
 
 \subsection{Hipótesis General}
 \newcommand{\HipotesisGeneral}{
-	La precisión de los modelos de deep learning preexistentes en la detección temprana de la retinopatía diabética es significativamente alta, lo que sugiere su viabilidad como herramientas eficientes para la identificación preliminar de esta condición en las poblaciones examinadas a través de las bases de datos Messidor y APTOS 2019.
+	La implementación de un modelo de deep learning adecuado mejorará significativamente los resultados de los pre-diagnósticos de retinopatía diabética.
 }
 \HipotesisGeneral
 
 \subsection{Hipótesis Específicas}
 \newcommand{\Hone}{
-	Los modelos de deep learning seleccionados demostrarán una precisión significativamente superior en la detección de signos tempranos de retinopatía diabética en imágenes retinianas en comparación con los métodos de cribado estándar, lo que se traduce en una reducción de los diagnósticos tardíos de la enfermedad.
+	Los datos seleccionados para entrenar modelos de deep learning serán suficientes y relevantes para mejorar la precisión en la pre-detección de la retinopatía diabética.
 }
 \newcommand{\Htwo}{
-	La calidad y la disponibilidad de los datos utilizados para entrenar y probar los modelos de deep learning tendrán un impacto directo y positivo en la precisión de la detección de la retinopatía diabética, lo que potencialmente podría disminuir la incidencia de ceguera entre los pacientes diabéticos.
+	La arquitectura de modelo de deep learning más efectiva identificará características tempranas de la retinopatía diabética con mayor precisión que las arquitecturas tradicionales.
 }
 \newcommand{\Hthree}{
-	La variabilidad en la anotación de datos entre diferentes observadores afectará significativamente el rendimiento de los modelos de deep learning, y la implementación de protocolos estandarizados de anotación mejorará la consistencia y exactitud en la detección de la retinopatía diabética a través de diversas poblaciones.
+	Los métodos de preprocesamiento de imágenes aplicados mejorarán la precisión del modelo de deep learning en la detección de la retinopatía diabética.
 }
 \newcommand{\Hfour}{
-	cv
+	Las métricas definidas y utilizadas para evaluar los modelos de deep learning proporcionarán una comparación clara y efectiva de la precisión y efectividad de diferentes modelos en la detección de la retinopatía diabética.
 }
 \newcommand{\Hfive}{
 	xws
@@ -145,7 +169,7 @@ La investigación está enfocada en la evaluación técnica de modelos de deep l
 	\item \Hone
 	\item \Htwo
 	\item \Hthree
-	% \item \Hfour
+	 \item \Hfour
 	% \item \Hfive
 \end{itemize}
 
